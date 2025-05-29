@@ -1,6 +1,4 @@
 # Author: Jedidiah Backus
-# GitHub username: JedBackus
-# Date: 3/16/2023
 # Description: Three classes. One for storing movies, one for storing streaming services, and one to act as a streaming guide.
 
 
