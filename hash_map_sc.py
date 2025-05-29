@@ -6,7 +6,7 @@
 # and empty the entire hash map. also includes a function for finding the mode of a dynamic array utilizing the has
 # map functionality.
 
-# ------- CODE BETWEEN THIS LINE AND THE NEXT COMMENT LINE WERE PROVIDED FROM EXTERNAL SOURCES ------- #
+# ------- CODE BETWEEN THIS LINE AND THE NEXT COMMENT LINE WERE PROVIDED FROM EXTERNAL SOURCES - NOT MY WORK ------- #
 
 from a6_include import (DynamicArray, LinkedList,
                         hash_function_1, hash_function_2)
