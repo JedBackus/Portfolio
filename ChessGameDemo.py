@@ -1,6 +1,4 @@
 # Author: Jedidiah Backus
-# GitHub username: JedBackus
-# Date: 8/16/2023
 # Description:  A variation of Chess. Uses 6 pieces from a standard chess set. 1 king, 1 rook, 2 bishops, and 2 knights. The goal of the game is to get your king from the starting row
 #                   (row 1) to the finishing row (row 8) before the other player. Each player gets the same number of turns, so a tie is possible. Additionally, intentional or accidental
 #                   checking of your king or the opponent's king is not allowed. Pieces move as they would in regular chess. Good luck.
