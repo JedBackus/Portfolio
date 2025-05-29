@@ -1,8 +1,4 @@
 # Name: Jedidiah Backus
-# OSU Email: backujed@oregonstate.edu
-# Course: CS261 - Data Structures
-# Assignment: 6
-# Due Date: 07DEC23
 # Description: An implementation of an optimized hash map using chaining for conflict resolution. Underlying
 # data structure is a dynamic array, with singly linked lists at each index. Implementation includes methods to add
 # or remove elements from the hash map, resize, determine the table load, view the number of empty buckets,
@@ -10,6 +6,7 @@
 # and empty the entire hash map. also includes a function for finding the mode of a dynamic array utilizing the has
 # map functionality.
 
+# ------- CODE BETWEEN THIS LINE AND THE NEXT COMMENT LINE WERE PROVIDED FROM EXTERNAL SOURCES ------- #
 
 from a6_include import (DynamicArray, LinkedList,
                         hash_function_1, hash_function_2)
@@ -91,7 +88,7 @@ class HashMap:
         """
         return self._capacity
 
-    # ------------------------------------------------------------------ #
+    # --------------------------- CODE BELOW THIS LINE IS ORIGINAL TO ME --------------------------------------- #
 
     def put(self, key: str, value: object) -> None:
         """
@@ -299,7 +296,7 @@ def find_mode(da: DynamicArray) -> tuple[DynamicArray, int]:
 
 
 
-# ------------------- BASIC TESTING ---------------------------------------- #
+# ------------------- BASIC TESTING BELOW THIS LINE WAS PROVIDED FROM EXTERNAL SOURCES ---------------------------------------- #
 
 if __name__ == "__main__":
 
