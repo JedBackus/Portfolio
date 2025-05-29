@@ -1,14 +1,12 @@
 # Name: Jedidiah Backus
-# OSU Email: backujed@oregonstate.edu
-# Course: CS261 - Data Structures
-# Assignment: 6
-# Due Date: 07DEC23
 # Description: An implementation of an optimized hash map using open addressing for conflict resolution.
 # Underlying data structure is a dynamic array, quadratic probing is used to find an open index for the hashed key.
 # Included are methods to add or remove new elements, resize the underlying array as needed, determine the current
 # number of empty buckets, get the value associated with a key, determine if a key is currently in the hash table or
 # not, get an array of all key/value pairs, and clear the entire array. Also included is an iterator method that will
 # ignore empty buckets, allowing for quicker iterations across the table.
+
+# -------  CODE BETWEEN THIS LINE AND THE NEXT COMMENT LINE WERE PROVIDED FROM EXTERNAL SOURCES  ------- #
 
 from a6_include import (DynamicArray, DynamicArrayException, HashEntry,
                         hash_function_1, hash_function_2)
@@ -88,7 +86,7 @@ class HashMap:
         """
         return self._capacity
 
-    # ------------------------------------------------------------------ #
+    # ------------------------------ CODE BELOW THIS LINE IS ORIGINAL TO ME ------------------------------------ #
 
     def put(self, key: str, value: object) -> None:
         """
@@ -300,7 +298,7 @@ class HashMap:
         return element
 
 
-# ------------------- BASIC TESTING ---------------------------------------- #
+# ------------------- BASIC TESTING WAS PROVIDED FROM EXTERNAL SOURCES - NOT MY WORK ---------------------------------------- #
 
 if __name__ == "__main__":
 
