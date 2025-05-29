@@ -1,10 +1,6 @@
-TITLE Project 6 (The Last One)     (Proj6_backujed.asm)
+TITLE Project 6 
 
 ; Author: Jedidiah Backus
-; Last Modified:  8/18/2023
-; OSU email address: backujed@oregonstate.edu
-; Course number/section:   CS271 Section 400
-; Project Number: Project 6   Due Date:  8/18/2023
 ; Description:	Program takes 10 numbers as strings, checking to ensure the inputs are indeed numbers, converts them to integers and stores them in an array. 
 ;					Program then converts them back to strings, prints the strings showing what was input, and then calculates and displays the total sum and the average of the numbers
 
